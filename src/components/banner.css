@@ -1,0 +1,51 @@
+.post_banner{
+    width: 100%;
+    padding: 0px 24px;
+    height: 57px;
+    border-bottom: 1px solid rgb(242, 242, 242);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: 
+    #85899b;
+}
+
+.readerLogo{
+    height: 45px;
+    width: 45px;
+}
+
+.searchbar input{
+    background-color: transparent;
+    padding: 10px 20px 10px 0px;
+    outline: none;
+    border: none;
+    color: rgba(41, 41, 41, 1);
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.userUtil{
+    display: flex;
+    gap: 30px;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup button{
+    background-color: #1a8917;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 4px 12px 6px;
+    border-style: solid;
+    border-radius: 99em;
+    line-height: 20px;
+}
+
+.write {
+    display: flex;
+    gap: 20px;
+}
+

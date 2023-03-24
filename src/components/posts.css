@@ -1,0 +1,11 @@
+.posts{
+    height: 100%;
+    width: 100%;
+    padding: 60px 12%;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+     .posts{
+        padding: 20px;
+     }
+ }

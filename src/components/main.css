@@ -1,0 +1,152 @@
+.main {
+    height: 100%;
+    width: 100%;
+    background-color: #ffc017;
+    border-bottom: 1px solid #000;
+    margin-top: 75px;
+  }
+  
+  .main-split {
+    width: 100%;
+    height: 100%;
+    padding-left: 11%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .main-split .hero {
+    height: 456px;
+    padding-top: 93px;
+    padding-bottom: 92px;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .main-split .hero h2 {
+    font-size: 106px;
+    font-family: gt-super, Georgia, Cambria, "Times New Roman", Times, serif;
+    letter-spacing: -0.05em;
+    line-height: 95px;
+    color: rgba(8, 8, 8, 1);
+    font-weight: 400;
+  }
+  
+  .main-split .hero h3 {
+    font-size: 24px;
+    color: rgba(41, 41, 41, 1);
+    font-weight: 480;
+    width: 440px;
+  }
+  
+  .startreading {
+    width: 213px;
+    padding: 7px 20px 9px;
+    font-size: 20px;
+    background: rgba(25, 25, 25, 1);
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    border-radius: 99em;
+  }
+  .svg{
+    width: 50%;
+    height: 456px;
+  }
+
+  .svg img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  .main2{
+    display: flex;
+    padding-right: 11%;
+  }
+
+  /* @media (max-width:720px) {
+    .svg{
+      display: none;
+    }
+    .main2{
+      padding-right: 0px;
+      flex-direction: column;
+      width: 100%;
+    }
+
+    .main-split .hero h2 {
+      font-size: 350%;
+    }
+  } */
+
+  @media (min-width: 481px) and (max-width: 767px) {
+
+    .main2{
+      width: 100%;
+      height: 100%;
+      padding: 0;
+      flex-direction: column;
+    }
+
+    .main{
+      width: 100%;
+      height: 100%;
+    }
+
+    .main-split{
+      width: 100%;
+      height: 100%;
+      padding: 30px;
+    }
+
+    .svg{
+      display: none;
+    }
+    .main-split .hero h2 {
+      font-size: 70px;
+    }
+  }
+
+  @media (min-width: 320px) and (max-width: 480px) {
+
+    .main2{
+      padding: 0px;
+      width: 100%;
+      height: 100%;
+      flex-direction: column;
+    }
+
+    .main{
+      width: 100%;
+      height: 100%;
+    }
+
+    .svg{
+      display: none;
+    }
+
+    .main-split{
+      width: 100%;
+      padding: 20px;
+    }
+
+    .main-split .hero{
+      width: 100%;
+      height: 100%;
+    }
+
+    .main-split .hero h2{
+      font-size: 70px;
+      line-height: 75px;
+      margin-bottom: 30px;
+    }
+  
+    .main-split .hero h3{
+      font-size: 24px;
+      width: 100%;
+      margin-bottom: 30px;
+    }
+    
+}

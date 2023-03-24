@@ -1,0 +1,247 @@
+.signinpost{
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    position: absolute;
+    background-color: #ffffff;
+}
+
+.post_banner{
+    width: 100%;
+    padding: 0px 24px;
+    height: 57px;
+    border-bottom: 1px solid rgb(242, 242, 242);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: 
+    #85899b;
+    background-color: #ffffff;
+}
+
+.readerLogo{
+    height: 45px;
+    width: 45px;
+}
+
+.searchbar input{
+    background-color: transparent;
+    padding: 10px 20px 10px 0px;
+    outline: none;
+    border: none;
+    color: rgba(41, 41, 41, 1);
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.userUtil{
+    display: flex;
+    gap: 30px;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup button{
+    background-color: #1a8917;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 4px 12px 6px;
+    border-style: solid;
+    border-radius: 99em;
+    line-height: 20px;
+}
+
+.write {
+    display: flex;
+    gap: 20px;
+}
+
+.profile{
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+}
+
+.profile img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50% 50%;
+}
+
+.content_wrapper{
+    width: 100%;
+    height: 100%;
+    /* padding: 0px 12%; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftcont{
+    width: 65%;
+    height: 100%;
+    border-right: 1px solid rgb(242, 242, 242);
+    padding-left: 5%;
+}
+
+
+.for_you{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content:space-between;
+    overflow-x: auto;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1px solid rgb(242, 242, 242);
+    background-color: #ffffff;
+}
+
+.sticky{
+    position: fixed;
+    width: 46%;
+    top: 0%;
+    background-color:#ffffff;
+    /* transition: .5s ease-in-out;    */
+    z-index: 99999;
+}
+
+.for_you::-webkit-scrollbar{
+    width: 0;
+}
+
+.for{
+    min-width: 80px;
+    font-size: 14px;
+    color: #757575;
+}
+
+.for:nth-child(2){
+    color: #000;
+}
+
+.profilecard{
+    width: 264px;
+    height: 85%;
+    background-color: #ffffff;
+    position: fixed;
+    right: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #757575;
+    font-size: 14px;
+    border: 1px solid rgb(230, 230, 230);
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
+
+.userpro{
+    padding: 0px 20px;
+    border-bottom: 1px solid rgb(230, 230, 230);
+    height: 192px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+}
+
+.settings{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    padding: 0px 20px;
+    height: 132px;
+    border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+.member{
+    height: 196px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    padding: 0px 20px;
+    border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+.logoutacc{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    padding: 0px 20px;
+    height: 92px;
+    cursor: pointer;
+}
+
+.recommendations{
+    padding: 30px;
+    font-size: 14px;
+    width: 35%;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+.recommendations  h1{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.buttons{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 260px;
+}
+
+.btn{
+    padding: 8px 16px;
+    height: 36px;
+    border-radius: 99em;
+    text-align: center;
+    background-color: rgba(230, 230, 230, 0.654);
+    color: #333;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+@media (max-width:720px) {
+
+    .post_banner{
+        width: 100%;
+    }
+
+    .for_you{
+        width: 100%;
+    }
+
+    .leftcont{
+        width: 100%;
+        height: 100%;
+    }
+
+    .content_wrapper{
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .write{
+        display: none;
+    }
+
+    .searchbar{
+        display: none;
+    }
+
+    .cisearch{
+        display: none;
+    }
+
+    .sticky{
+        position: relative;
+    }
+}
+
